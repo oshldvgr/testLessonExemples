@@ -1,14 +1,11 @@
-package ru.shadrina.chat.testCDI;
-
-import ru.shadrina.chat.App;
-import ru.shadrina.chat.testJson.TestService;
+package ru.shadrina.exemples.testCDI;
 
 import javax.enterprise.inject.se.SeContainerInitializer;
 import javax.enterprise.inject.spi.CDI;
 
 public class TestCDI {
     public static void main(String[] args) {
-        SeContainerInitializer.newInstance().addPackages(App.class).initialize();
+        SeContainerInitializer.newInstance().addPackages(TestCDI.class).initialize();
 
         MegaService mega = CDI.current().select(MegaService.class).get();
         TestService test = CDI.current().select(TestService.class).get();

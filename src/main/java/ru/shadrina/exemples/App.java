@@ -1,6 +1,4 @@
-package ru.shadrina.chat;
-
-import ru.shadrina.chat.testEvent.EventService;
+package ru.shadrina.exemples;
 
 import javax.enterprise.inject.se.SeContainerInitializer;
 import javax.enterprise.inject.spi.CDI;

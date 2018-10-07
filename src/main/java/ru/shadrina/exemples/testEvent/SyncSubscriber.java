@@ -1,4 +1,4 @@
-package ru.shadrina.chat.testEvent;
+package ru.shadrina.exemples.testEvent;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.event.Observes;

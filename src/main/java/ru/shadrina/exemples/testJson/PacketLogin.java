@@ -1,4 +1,4 @@
-package ru.shadrina.chat.testJson;
+package ru.shadrina.exemples.testJson;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

@@ -1,4 +1,4 @@
-package ru.shadrina.chat.testJson;
+package ru.shadrina.exemples.testJson;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -6,8 +6,8 @@ public class TestJson {
 
     public static void main(String[] args) {
         PacketLogin packetLogin = new PacketLogin();
-        packetLogin.setLogin("olga");
-        packetLogin.setPassword("dom1212");
+        packetLogin.setLogin("qqqq");
+        packetLogin.setPassword("passw");
 
         System.out.println("LOGIN: " + packetLogin.getLogin());
         System.out.println("PASSWORD : " + packetLogin.getPassword());

@@ -1,4 +1,4 @@
-package ru.shadrina.chat;
+package ru.shadrina.exemples;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.event.ObservesAsync;

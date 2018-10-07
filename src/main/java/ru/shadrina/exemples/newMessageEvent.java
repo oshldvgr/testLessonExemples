@@ -1,4 +1,4 @@
-package ru.shadrina.chat;
+package ru.shadrina.exemples;
 
 import lombok.Getter;
 //событие прихода нового сообщения - на каждое новое сообщение будет создаваться новое событие,

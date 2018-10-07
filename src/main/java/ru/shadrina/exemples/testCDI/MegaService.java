@@ -1,4 +1,4 @@
-package ru.shadrina.chat.testCDI;
+package ru.shadrina.exemples.testCDI;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.inject.se.SeContainer;

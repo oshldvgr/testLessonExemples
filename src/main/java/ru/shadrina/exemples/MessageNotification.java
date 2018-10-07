@@ -1,6 +1,5 @@
-package ru.shadrina.chat;
+package ru.shadrina.exemples;
 
-import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.event.Event;
 import javax.inject.Inject;
 
@@ -12,7 +11,7 @@ import javax.inject.Inject;
 
 public class MessageNotification {
     @Inject
-    private Event<ru.shadrina.chat.newMessageEvent> newMessageEvent;
+    private Event<ru.shadrina.exemples.newMessageEvent> newMessageEvent;
     public void run(){
 
         System.out.println("Я MessageNotification class, наблюдающий за новыми сообщениями. Сейчас я создам событие: ПРИШЛО НОВОЕ СООБЩЕНИЕ" );

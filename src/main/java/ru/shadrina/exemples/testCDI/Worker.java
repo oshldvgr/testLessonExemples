@@ -1,6 +1,4 @@
-package ru.shadrina.chat.testCDI;
-
-import ru.shadrina.chat.testCDI.Helper;
+package ru.shadrina.exemples.testCDI;
 
 import javax.inject.Inject;
 
